@@ -1,0 +1,8 @@
+.mail {
+  display: flex;
+}
+
+.mail-list {
+  flex-grow: 1;
+  background-color: white;
+}

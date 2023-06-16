@@ -1,0 +1,22 @@
+.mail {
+  display: flex;
+}
+
+.mail-body {
+  flex-grow: 1;
+  background-color: white;
+  padding: 0.5rem;
+}
+
+.subject {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.subtitle {
+  margin-top: 0.6rem;
+}
+
+.content {
+  margin-top: 1rem
+}

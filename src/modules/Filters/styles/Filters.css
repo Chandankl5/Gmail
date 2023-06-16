@@ -1,0 +1,54 @@
+
+.filters {
+  margin: 0;
+  flex-basis: 200px;
+  flex-shrink: 0;
+  list-style: none;
+  background-color: rgb(234, 241, 251);
+  min-height: 100vh;
+  padding-top: 4rem;
+}
+
+.filter-item {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.filter-active {
+  background-color: #d3e3fd; 
+  font-weight: bold;
+  color: black;
+}
+
+.hamberger-menu {
+  background-color: rgb(234, 241, 251);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  min-width: 250px;
+  transition: min-width 0.4s ease;
+}
+
+.toggle-cta {
+  text-align: left;
+}
+
+.hide {
+  display: none;
+}
+
+@media screen and (max-width: 1080px) {
+  .filters-desktop {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .filters-mobile {
+    display: none;
+  }
+  .toggle-cta {
+    display: none;
+  }
+}

@@ -1,0 +1,12 @@
+.search-input-wrapper {
+  position: relative;
+  text-align: center;
+}
+
+.search-input {
+  border-radius: 8px;
+  padding: 0.5rem;
+  min-width: 200px;
+  margin-right: 1rem;
+  margin-left: 1.4rem;
+}
